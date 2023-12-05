@@ -34,6 +34,18 @@
         div > div > p {
             font-weight: bold;
         }
+        .subbagian {
+            font-size: 30px;
+        }
+        .subbagian.header {
+            color: blueviolet;
+        }
+        .subbagian#teks {
+            color: brown;
+        }
+        p:hover {
+            background-color: aqua;
+        }
     </style>
 </head>
 <body>
@@ -46,6 +58,11 @@
         <div>
             <p>Ini adalah pragraf kedua.</p>
         </div>
+    </div>
+
+    <div>
+        <div class="subbagian header">Bagian Header</div>
+        <p class="subbagian" id="teks">Ini adalah paragraf</p>
     </div>
 </body>
 </html>

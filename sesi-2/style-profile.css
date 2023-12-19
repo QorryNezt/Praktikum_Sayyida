@@ -17,7 +17,7 @@
     width: 900px;
     height: 300px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 .menu-container {
@@ -31,6 +31,8 @@
     
     /*border: 1px solid #fff; */
     width: 900px;
+    display: flex;
+    justify-content: space-between;
 }
 .Title {
     margin-left: 20px;
@@ -39,7 +41,7 @@
     width: 900px;
     height: 300px;
     display: flex;
-    justify-content: space-between;
+    justify-content: baseline;
     align-items: center;
 }
 .footer {
